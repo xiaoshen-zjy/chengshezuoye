@@ -1,9 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>  // 这个头文件是为了让窗口不一闪而过
+#include <stdlib.h>
 
 int main() {
     printf("Hello World!\n");
     
-    system("pause");  // 运行后窗口会暂停，按任意键才关闭
+    // 新增：获取用户键盘输入并输出
+    char input[100];
+    printf("请输入任意内容：");
+    scanf("%s", input);
+    printf("你输入的内容是：%s\n", input);
+    
+    system("pause");
     return 0;
 }
