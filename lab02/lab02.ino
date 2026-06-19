@@ -1,3 +1,4 @@
+// 新增SOS信号状态机逻辑
 // lab02 升级版：millis()实现1Hz闪烁 + SOS信号自动切换（全非阻塞）
 const int ledPin = 2; // ESP32板载LED引脚
 
