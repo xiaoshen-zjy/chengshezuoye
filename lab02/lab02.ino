@@ -1,3 +1,4 @@
+// 第二次修改：增加代码注释说明
 // lab02 实验2 基础IO LED闪烁
 const int ledPin = 2; // ESP32板载LED引脚
 
